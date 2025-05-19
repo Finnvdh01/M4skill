@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webshop
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <script src="https://kit.fontawesome.com/df4f30d37f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header__container">
+            <nav class="navbar">
+                <div class="navbar__cart">
+                        <i class="fa-solid fa-cart-shopping fa-2xl"></i>
+                        <span class="navbar__cart-count" id="ItemCounter">0</span>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <div class="card card--product">
+            <div class="card__content">
+                <img class="card__image" src="img/product1.jpg" alt="Product Image1">
+                <p class="card__price">Price: $44,99</p>
+                <h2 class="card__title">Movie speakers</h2>
+                <p class="card__rating">Rating: 4.2/5</p>
+                <button class="card__button">Add to Cart</button>
+                <div class="delete">
+                    <p class="delete-text">
+                        <i class="fa-solid fa-trash fa-lg"></i>
+                    </p>
+            </div>
+            </div>
+        </div>
+
+        <div class="card card--product">
+            <div class="card__content">
+                <img class="card__image" src="img/product2.jpg" alt="Product Image1">
+                <p class="card__price">Price: $39,99</p>
+                <h2 class="card__title">kantoor speakers</h2>
+                <p class="card__rating">Rating: 4.1/5</p>
+                <button class="card__button">Add to Cart</button>
+                <div class="delete">
+                    <p class="delete-text">
+                        <i class="fa-solid fa-trash fa-lg"></i>
+                    </p>
+            </div>
+            </div>
+        </div>
+
+        <div class="card card--product">
+            <div class="card__content">
+                <img class="card__image" src="img/product3.jpg" alt="Product Image1">
+                <p class="card__price">Price: $47,99</p>
+                <h2 class="card__title">gaming speakers</h2>
+                <p class="card__rating">Rating: 4.8/5</p>
+                <button id="winkelmand" class="card__button">Add to Cart</button>
+                <div class="delete">
+                    <button id="deleteCounter" class="del"><p class="delete-text"><i class="fa-solid fa-trash fa-lg"></i></p></button>
+            </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
