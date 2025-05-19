@@ -37,8 +37,12 @@ function verwijder() {
 
 
 
-
-
+const products_array = [
+     ["Movie speakers", 44.99, "img/product1.jpg.jpg", "Een krachtige Rating: 4.2/5", true],
+     ["kantoor speakers", 39.99, "img/product2.jpg", "Rating: 4.1/5", true],
+     ["gaming speakers", 47,99, "img/product3.jpg", "Rating: 4.8/5", false]
+  ];
+  
 
 
 
